@@ -1,0 +1,529 @@
+@font-face {
+    font-family: FiraMono;
+    src: url(/static/font/firamono-regular-webfont.eot);
+    src: url(/static/font/firamono-regular-webfont.eot#iefix) format('embedded-opentype'),
+         url(/static/font/FiraMono-Regular.woff2) format('woff2');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: FiraMono;
+    src: url(/static/font/firamono-bold-webfont.eot);
+    src: url(/static/font/firamono-bold-webfont.eot#iefix) format('embedded-opentype'),
+         url(/static/font/FiraMono-Bold.woff2) format('woff2');
+    font-weight: bold;
+}
+
+html {
+    overflow-y: scroll;
+}
+body {
+    background-color: #e0e0e0;
+    font-family: "FiraMono";
+    font-size: 1.2em;
+}
+
+#logo {
+    float: left;
+    width: 200px;
+    height: 100%;
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-size: 78%;
+    margin: 6px 6px;
+}
+
+main {
+    width: 1350px;
+    margin: auto;
+}
+
+menu {
+    width: 1250px;
+    text-align:center;
+    margin: 40px auto;
+}
+
+article {
+    margin: 95px auto;
+    width: 1100px;
+    background-color: #F9F7F3;
+    position: relative;
+}
+
+.select2-selection {
+    border: 1px dashed #CCC !important;
+}
+
+.select2-results {
+    font-size: 11px !important;
+}
+
+.navbar {
+    min-height: 10px;
+}
+.navbar-inverse {
+    background-color: #024ca1;
+    border-bottom: 1px solid #030000;
+    height: 32px;
+}
+
+#govsp-navbarGlobal.blu-e {
+    background-color: #024ca1 !important;
+}
+
+.wrap {
+    width: 1250px;
+    text-align: center;
+    margin: auto;
+    margin-top:  2px;
+}
+
+.itens_select {
+    display: inline;
+}
+
+/* indicadores */
+
+#wrapper {
+    padding:10px;
+}
+
+.row {
+    margin: 10px 0;
+}
+
+.row-titulo {
+    margin: 10px -15px;
+}
+
+.cabecalho {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.cabecalho-s {
+    font-size: 22px;
+}
+
+.pergunta-resposta :first-child{
+    padding-left: 4px;
+    padding-right: 2px;
+    background-color: #2f5b76;
+    color:white;
+}
+.pergunta-resposta :last-child {
+    padding-left: 4px;
+    padding-right: 2px;
+    background-color: white;
+    color:black;
+}
+
+.pergunta {
+    padding-left: 4px;
+    padding-right: 2px;
+    background-color: #2f5b76;
+    color:white;
+}
+
+.resposta {
+    padding-left: 4px;
+    padding-right: 2px;
+    background-color: white;
+    color:black;
+}
+
+#chart-metas svg {
+
+  height: 400px;
+}
+
+
+/* Table Metas-UO */
+
+tbody {
+    font-weight: normal;
+}
+
+.table-painel-1 {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto 5rem;
+}
+
+th, td {
+    padding: 4px;
+    font-size: 1.3rem;
+    border-right: 1px gray solid;
+}
+
+
+.table-painel-1 th {
+    background: #101734;
+    color: white;
+    border-bottom: white 1px solid;
+    border-right: white 1px solid;
+    text-align: center;
+}
+
+.table-painel-1 tr:nth-child(even) {
+    background: #ECECEC;
+}
+.table-painel-1 tr:nth-child(odd) {
+    background: #FFF
+}
+
+.table-painel-1 tfoot {
+    font-weight: bold;
+}
+
+.table-painel-1 tr:hover:not(#firstrow),
+.table-painel-1 tr:hover,
+.table-painel-1 td:empty {
+    pointer-events: visible;
+}
+
+.table-painel-1 {
+    font-weight: bold;
+}
+
+.table-titulo {
+    text-align: center !important;
+    font-size: 1.5rem !important;
+}
+
+.table-painel-2 {
+    width: 100%;
+}
+
+.chart-titulo {
+    text-align: center;
+    font-size: 2.3rem;
+    margin-top: 29px;
+    margin-bottom: -17px;
+    font-weight: bold;
+}
+
+.chart-titulo-s {
+    font-size: 1.8rem;
+    margin-bottom: 7px;
+}
+
+.link-handler {
+    cursor: pointer;
+    color: #64b1e1 !important;
+}
+
+.link-handler:hover {
+    color: #D25098 !important;
+}
+
+.link-handler span{
+    cursor: pointer;
+    color: #64b1e1;
+}
+
+.link-handler span:hover {
+    color: #D25098;
+}
+
+.arrow_box_previo {
+    position: relative;
+}
+
+.arrow_box_previo:hover {
+    cursor: pointer;
+}
+
+.arrow_box_previo:after, .arrow_box_previo:before {
+    right: 52.5%;
+    top: 52%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: all;
+}
+
+.arrow_box_previo:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-right-color: black;
+    border-width: 18px;
+    margin-top: -44px;
+}
+
+.arrow_box_proximo {
+    position: relative;
+
+}
+
+.arrow_box_proximo:hover {
+    cursor: pointer;
+}
+
+.arrow_box_proximo:after, .arrow_box_proximo:before {
+    left: 52.5%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: all;
+}
+
+.arrow_box_proximo:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: black;
+    border-width: 18px;
+    margin-top: -44px;
+}
+
+#btnIR {
+    padding: 4px 9px;
+}
+
+.bigdrop{
+    width: 600px !important;
+}
+
+#chart-bullet-ppa {
+    margin-top: 64px;
+}
+
+.y {
+    background-color: #F7F9F9;
+}
+
+.r {
+    background-color: #FFEFEF;
+}
+
+.despesa {
+    border-collapse: collapse;
+    background-color: white;
+    width: 100%;
+}
+
+
+.despesa td,
+.despesa th {
+    border: 1px solid rgba(66, 64, 64, 0.35);;
+}
+
+.despesa tr:hover,
+.despesa tr .y:hover,
+.despesa tr .r:hover {
+    background-color: rgba(0, 0, 0, 0.09);
+}
+
+.despesa .table-titulo {
+    background-color: #101734;
+    color: white;
+}
+
+table.despesa {
+    table-layout:fixed;
+}
+
+table.despesa td,
+table.despesa th {
+    overflow: hidden;
+    width: 70px;
+    font-size: 10px;
+    padding-right: 2px;
+    padding-left: 2px;
+    color: black;
+}
+
+table.despesa tr td {
+    text-align: right;
+}
+
+table.despesa tr th {
+    text-align: center;
+}
+
+table.despesa tr td:first-of-type,
+table.despesa tr th:first-of-type {
+    width: 19px;
+    text-align: left;
+}
+
+table.despesa tr td:last-of-type,
+table.despesa tr th:last-of-type {
+    width: 14px;
+}
+
+.despesa_menu {
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+.inativo {
+    background-color: rgb(227, 227, 227);
+    border: 1px solid #A7A7A7;
+}
+
+.ativo {
+    background-color: #2f5b76;
+    border: 1px solid black;
+    color: white;
+}
+
+#despesa-geral {
+    width: 46%;
+    margin: 10px auto 0;
+    padding: 0;
+    border: 1px solid gray;
+}
+
+#despesa-geral tr td:first-of-type {
+    text-align: right;
+}
+
+#despesa-geral tr th:first-of-type {
+    text-align: center;
+}
+
+#despesa-geral tr th {
+    font-size: 12px;
+    background-color: #101734;
+    color: white;
+    border: 0;
+    padding: 2px;
+}
+
+#despesa-geral tr:hover {
+    background-color: inherit;
+}
+
+.nv-pie-title {
+    fill: black !important;
+    font-family: "FiraMono" !important;
+}
+
+span.meta-orgao {
+    text-align:center;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0 -30px;
+}
+
+span.meta-ano {
+    margin: 15px 0 15px;
+}
+
+#dropdown-download-btn {
+    position: absolute;
+    top: -43px;
+    right: 0;
+}
+
+#dropdown-relatorios-btn {
+    position: absolute;
+    top: -43px;
+    right: 135px;
+}
+
+.dropdown-menu {
+    min-width: 99px;
+}
+
+#unique_url {
+    position: absolute;
+    top: -43px;
+    right: 2px;
+}
+
+#apuracoes_indicadores {
+    margin: -10px auto 20px;
+    width: 100%;
+}
+
+#apuracoes_indicadores td,
+#apuracoes_indicadores th,
+#comentarios_indicadores td,
+#comentarios_indicadores th{
+    font-size: 10px;
+}
+
+#comentarios_indicadores {
+    width: 100%;
+}
+
+#comentarios_indicadores td:nth-of-type(2),
+#comentarios_indicadores td:nth-of-type(3) {
+    width: 46%;
+}
+
+
+#home-icon {
+    position: absolute;
+    top: -47px;
+}
+
+#doc-icon {
+    position: absolute;
+    top: -41px;
+    left: 52px;
+}
+
+.row-bullet {
+    margin-left: 96px;
+}
+
+table.pgm tr td:first-of-type,
+table.pgm tr th:first-of-type {
+    width: 447px;
+}
+
+.nvd3 text {
+    font: normal 12px FiraMono !important;
+}
+
+.forma {
+    background: white;
+    border: 2.5px solid black;
+    display: inline-block;
+}
+
+.quadrado {
+    margin-left: 10px;
+    color: black;
+    font-size: 17px;
+}
+
+.triangulo {
+    margin-left: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+.circulo {
+    color: black;
+    font-size: 17px;
+}
+
+#labels-bullets {
+    margin: -60px auto;
+    width: 339px;
+}
+
+#chart-bullet-recente{
+    margin-top: 120px;
+}
+
+.number_row {
+    text-align: right;
+}
+
+#graficos {
+    position: absolute;
+    top: -43px;
+    right: 129px;
+}

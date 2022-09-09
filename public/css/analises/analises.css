@@ -1,0 +1,81 @@
+.s300 {
+	width: 500px !important;
+}
+
+.vex.vex-theme-wireframe .vex-content {
+	max-width: 1100px !important;
+	width: 75% !important;
+	overflow: auto !important;
+}
+
+.vex.vex-theme-wireframe {
+	padding-top: 50px !important;
+}
+
+#analise-table th {
+	background: #101734;
+	color: white;
+	border-bottom: white 1px solid;
+}
+
+#analise-table td {
+	font-size: 10px;
+}
+
+.btn-analise {
+	padding: 3px 8px;
+	margin-bottom: 12px;
+}
+
+.btn-right {
+	margin-right: 10px;
+}
+
+.table-orc th {
+	background: #101734;
+	color: white;
+	border-bottom: white 1px solid;
+}
+
+.table-orc td {
+	font-size: 10px;
+	text-align: right;
+}
+
+.table-orc {
+	width: 100%;
+	color: black;
+	margin: 0;
+	padding: 0;
+}
+
+.table-suma {
+	margin-bottom: 20px;
+}
+
+.table-suma td:first-of-type {
+	text-align: left;
+}
+
+.table-suma td:nth-of-type(2),
+.table-suma td:nth-of-type(5) {
+	border-right: 3px black solid;
+}
+
+
+
+.table-suma th:first-of-type {
+	width: 95px;
+}
+
+.orcamento-tables {
+	margin: auto 0 15px;
+    overflow: auto;
+    display: none;
+    max-height: 400px;
+}
+
+.wrapper-acao {
+	width: 80%;
+    margin: auto;
+}
